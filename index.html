@@ -188,10 +188,10 @@
         let currentSlideIndex = 1;
         showSlide(currentSlideIndex);
 
-        // Auto advance slides every 5 seconds
+        // Auto advance slides every 1 second
         setInterval(() => {
             moveSlide(1);
-        }, 5000);
+        }, 1000);
 
         function moveSlide(n) {
             showSlide(currentSlideIndex += n);
