@@ -12,6 +12,11 @@
     <nav class="navbar">
         <div class="container">
             <div class="logo">Bride Mode</div>
+            <button class="burger-menu" onclick="toggleMenu()" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#services">Services</a></li>
@@ -22,8 +27,51 @@
         </div>
     </nav>
 
+    <!-- Gallery Slider Section -->
+    <section class="gallery-slider" style="margin-top: 70px;">
+        <div class="container">
+            <h2 class="section-title">Our Beautiful Weddings</h2>
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide active">
+                        <div class="slide-content">
+                            <h3>Elegant Ceremonies</h3>
+                            <p>Creating unforgettable moments</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-content">
+                            <h3>Perfect Details</h3>
+                            <p>Every element carefully curated</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-content">
+                            <h3>Dream Celebrations</h3>
+                            <p>Your vision brought to life</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-content">
+                            <h3>Timeless Memories</h3>
+                            <p>Moments that last forever</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="slider-btn prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="slider-btn next" onclick="moveSlide(1)">&#10095;</button>
+                <div class="slider-dots">
+                    <span class="dot active" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Hero Section -->
-    <section id="home" class="hero">
+    <section id="home" class="hero" style="margin-top: 0; height: auto; min-height: 60vh; padding: 5rem 0;">
         <div class="hero-content">
             <h1>Your Dream Wedding Awaits</h1>
             <p>Creating unforgettable moments for your special day</p>
@@ -116,5 +164,65 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        // Toggle mobile menu
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            const burger = document.querySelector('.burger-menu');
+            navLinks.classList.toggle('active');
+            burger.classList.toggle('active');
+        }
+
+        // Close menu when clicking on a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                const navLinks = document.querySelector('.nav-links');
+                const burger = document.querySelector('.burger-menu');
+                navLinks.classList.remove('active');
+                burger.classList.remove('active');
+            });
+        });
+
+        // Slider functionality
+        let currentSlideIndex = 1;
+        showSlide(currentSlideIndex);
+
+        // Auto advance slides every 5 seconds
+        setInterval(() => {
+            moveSlide(1);
+        }, 5000);
+
+        function moveSlide(n) {
+            showSlide(currentSlideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlide(currentSlideIndex = n);
+        }
+
+        function showSlide(n) {
+            const slides = document.querySelectorAll('.slide');
+            const dots = document.querySelectorAll('.dot');
+            const slider = document.querySelector('.slider');
+            
+            if (n > slides.length) {
+                currentSlideIndex = 1;
+            }
+            if (n < 1) {
+                currentSlideIndex = slides.length;
+            }
+            
+            // Move slider
+            const offset = -(currentSlideIndex - 1) * 100;
+            slider.style.transform = `translateX(${offset}%)`;
+            
+            // Update dots
+            dots.forEach(dot => dot.classList.remove('active'));
+            if (dots[currentSlideIndex - 1]) {
+                dots[currentSlideIndex - 1].classList.add('active');
+            }
+        }
+    </script>
 </body>
 </html>
