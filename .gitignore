@@ -1,0 +1,21 @@
+# IDE
+.idea/
+*.swp
+*.swo
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Thumbnails
+Thumbs.db
+
+# Logs
+*.log
+
+# Local development
+.env
+.env.local
