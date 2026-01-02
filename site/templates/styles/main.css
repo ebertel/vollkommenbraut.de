@@ -302,6 +302,13 @@ h4 { font-family: europa, sans-serif; font-size: 1.3rem; font-weight: 300; font-
   #navi_top_hamburger a:hover { border-bottom: 2px solid #333333; padding-bottom: 2px; cursor: grabpointer; }
   li.dropdown:hover .dropdown-content { display: none; }
   
+  /* Mobile Navigation: Untermenüs per Klick anzeigen */
+  #navi_top_hamburger .dropdown .dropdown-content { display: none; position: static; }
+  #navi_top_hamburger .dropdown.open .dropdown-content { display: block; }
+  #navi_top_hamburger .dropdown .dropdown-content ul { padding-left: 0; }
+  #navi_top_hamburger .dropdown .dropdown-content li.level-2 { margin-top: 0.5rem; }
+  #navi_top_hamburger .dropdown .dropdown-content li.level-2 a { font-size: 0.95rem; color: rgba(81,165,170,1.0); }
+
   .text_teaser, .linkfeld .text { font-size: 2rem; }
   .linkfeld.linie .text { font-size: 2.4rem; }
   .wrapper_bild.volles_format div.text_teaser { font-size: 6.5rem; }

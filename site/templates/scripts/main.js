@@ -41,5 +41,27 @@
 				$('.navi_top_hamburger').slideToggle('200');
 	  });   
 	});	
-	
-	
+
+// 	Mobile Dropdown Toggle (Touch + Hover)
+	$(document).ready(function(){
+		// Touch: Klick auf den Link
+		$('#navi_top_hamburger .dropdown > a').on('click', function(e) {
+			e.preventDefault();
+			var $dropdown = $(this).parent();
+			$dropdown.find('.dropdown-content').slideToggle('200');
+			$dropdown.toggleClass('open');
+		});
+
+		// Desktop: Hover
+		$('#navi_top_hamburger .dropdown').hover(
+			function() {
+				$(this).find('.dropdown-content').stop(true, true).slideDown('200');
+				$(this).addClass('open');
+			},
+			function() {
+				$(this).find('.dropdown-content').stop(true, true).slideUp('200');
+				$(this).removeClass('open');
+			}
+		);
+	});
+
