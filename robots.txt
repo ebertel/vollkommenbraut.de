@@ -1,0 +1,12 @@
+# Robots.txt for vollkommenbraut.de
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.vollkommenbraut.de/sitemap.xml
+
+# Disallow admin/system folders
+Disallow: /site/templates/
+Disallow: /site/assets/cache/
+
