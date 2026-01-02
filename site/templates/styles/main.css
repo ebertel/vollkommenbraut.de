@@ -389,3 +389,12 @@ h4 { font-family: europa, sans-serif; font-size: 1.3rem; font-weight: 300; font-
   .wrappy_no { padding: 0 0 1.2rem 0; }
   .wrapper_bild.volles_format div.text_teaser { font-size: 3rem; }
   }  
+
+
+/* Responsive iframe (z.B. Google Maps) */
+.zweispaltig iframe {
+  max-width: 100%;
+  height: auto;
+  min-height: 300px;
+}
+
