@@ -405,3 +405,98 @@ h4 { font-family: europa, sans-serif; font-size: 1.3rem; font-weight: 300; font-
   min-height: 300px;
 }
 
+
+/* WhatsApp Floating Button */
+#whatsapp-float {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 9999;
+}
+
+#whatsapp-float a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: #25D366;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+#whatsapp-float a:hover {
+  background-color: #128C7E;
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+}
+
+#whatsapp-float svg {
+  width: 32px;
+  height: 32px;
+  fill: #ffffff;
+}
+
+/* WhatsApp Button Tooltip */
+#whatsapp-float a::before {
+  content: "Dein Traumkleid wartet! Schreib uns 💕";
+  position: absolute;
+  right: 75px;
+  background: #333333;
+  color: #ffffff;
+  padding: 8px 15px;
+  border-radius: 8px;
+  font-family: europa, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+#whatsapp-float a:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Mobile Anpassung für WhatsApp Button */
+@media screen and (max-width: 768px) {
+  #whatsapp-float {
+    bottom: 20px;
+    right: 20px;
+  }
+
+  #whatsapp-float a {
+    width: 55px;
+    height: 55px;
+    animation: whatsapp-pulse 2s infinite;
+  }
+
+  #whatsapp-float svg {
+    width: 28px;
+    height: 28px;
+  }
+
+  #whatsapp-float a::before {
+    display: none;
+  }
+}
+
+/* Puls-Animation für Mobile */
+@keyframes whatsapp-pulse {
+  0% {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25), 0 0 0 0 rgba(37, 211, 102, 0.5);
+  }
+  70% {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25), 0 0 0 15px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25), 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+
+
