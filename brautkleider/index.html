@@ -38,13 +38,6 @@
     <link rel="manifest" href="../site/templates/styles/fav/site.webmanifest">
 
     <style>
-        /* Galerie: auf Mobil keine Klick-Interaktion (kein Fancybox-Popup) */
-        @media screen and (max-width: 768px) {
-            .galerie_wrapper a {
-                pointer-events: none;
-                cursor: default;
-            }
-        }
         .brand-section {
             padding: 3rem 0;
         }
@@ -168,7 +161,48 @@
         [data-delay="200"] { animation-delay: 200ms; }
         [data-delay="400"] { animation-delay: 400ms; }
         [data-delay="600"] { animation-delay: 600ms; }
+        /* Ensure zoom button is visible and functional on mobile */
+        @media screen and (max-width: 768px) {
+            .fancybox-button--zoom {
+                display: flex !important;
+                pointer-events: auto !important;
+                cursor: pointer !important;
+            }
+        }
+        /* Additional override for very small screens */
+        @media all and (max-height: 576px) {
+            .fancybox-button--zoom {
+                display: flex !important;
+                pointer-events: auto !important;
+                cursor: pointer !important;
+            }
+        }
     </style>
+    <script>
+        // Initialize FancyBox with proper mobile support
+        jQuery(document).ready(function($) {
+            // Configure FancyBox for all devices
+            $('[data-fancybox]').fancybox({
+                on: {
+                    init: function(fancybox) {
+                        // Ensure buttons are always visible
+                    }
+                }
+            });
+            
+            // Override FancyBox mobile settings to enable zoom
+            if (typeof $.fancybox !== 'undefined' && $.fancybox.defaults) {
+                $.fancybox.defaults.mobile = {
+                    preventCaptionOverlap: false,
+                    idleTime: false,
+                    clickContent: false,
+                    clickSlide: false,
+                    dblclickContent: false,
+                    dblclickSlide: false
+                };
+            }
+        });
+    </script>
 </head>
 
 <body class="body_home">
