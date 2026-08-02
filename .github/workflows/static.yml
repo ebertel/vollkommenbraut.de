@@ -28,10 +28,34 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      - name: Prepare artifact directory
+        run: |
+          rm -rf _site
+          rsync -a --delete \
+            --exclude='.git/' \
+            --exclude='.github/' \
+            --exclude='node_modules/' \
+            --exclude='_assets/' \
+            --exclude='sites/' \
+            --exclude='internal-docs/' \
+            --exclude='site/assets/Amelie.Brautkleider.2027/' \
+            --exclude='site/assets/Brautkleider.2027/' \
+            ./ ./_site/
+
+          # Keep only the homepage slider assets needed from excluded large folders.
+          mkdir -p "_site/site/assets/Amelie.Brautkleider.2027/thumbnails"
+          cp "site/assets/Amelie.Brautkleider.2027/thumbnails/30166W(1).JPEG" "_site/site/assets/Amelie.Brautkleider.2027/thumbnails/30166W(1).JPEG"
+
+          mkdir -p "_site/site/assets/Brautkleider.2027/Lasabina"
+          cp "site/assets/Brautkleider.2027/Lasabina/Lasabina 2027 FINAL Cindy.jpg" "_site/site/assets/Brautkleider.2027/Lasabina/Lasabina 2027 FINAL Cindy.jpg"
+
+          mkdir -p "_site/site/assets/Brautkleider.2027/Amelie"
+          cp "site/assets/Brautkleider.2027/Amelie/36001(1).jpg" "_site/site/assets/Brautkleider.2027/Amelie/36001(1).jpg"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: "."
+          path: "./_site"
 
       - name: Deploy to GitHub Pages
         id: deployment
