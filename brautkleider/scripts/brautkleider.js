@@ -281,6 +281,86 @@
       .sort(function (a, b) {
         return a.file.localeCompare(b.file, "de");
       });
+    if (slug === "mit-aermeln") {
+      var removedLeadFiles = new Set([
+        "30134w-1138.JPEG",
+        "30139W (1).JPEG",
+        "35002 (2).JPEG"
+      ]);
+      dressesForPage = dressesForPage.filter(function (dress) {
+        return !removedLeadFiles.has(dress.file);
+      });
+
+      var leadDressIndex = dressesForPage.findIndex(function (dress) {
+        return dress.file === "IMG_5358.jpg";
+      });
+      if (leadDressIndex > 0) {
+        var leadDress = dressesForPage.splice(leadDressIndex, 1)[0];
+        dressesForPage.unshift(leadDress);
+      }
+
+      var accentDressIndex = dressesForPage.findIndex(function (dress) {
+        return dress.file === "FF87FF62-9F7E-491C-8218-A3FDB2AFFBFE.PNG";
+      });
+      if (accentDressIndex > 1) {
+        var accentDress = dressesForPage.splice(accentDressIndex, 1)[0];
+        dressesForPage.splice(1, 0, accentDress);
+      }
+    } else if (slug === "schlicht-modern") {
+      dressesForPage = dressesForPage.filter(function (dress) {
+        return dress.file !== "25026 (1).JPEG" && dress.file !== "30165w-2415.JPEG";
+      });
+
+      var preservedCleanLead = dressesForPage.slice(0, 2);
+      var remainingCleanDresses = dressesForPage.slice(2);
+      var cleanLeadImage = remainingCleanDresses.findIndex(function (dress) {
+        return dress.file === "IMG_0518.JPG";
+      });
+      if (cleanLeadImage > -1) {
+        preservedCleanLead.unshift(remainingCleanDresses.splice(cleanLeadImage, 1)[0]);
+      }
+
+      var featuredCleanFiles = [
+        "3D8A2EDD-2F80-4FAB-BDCC-33291A784320.PNG",
+        "9C8B5E18-802F-4CFC-8E5B-634CCCB9A00A.PNG"
+      ];
+      var featuredCleanDresses = [];
+
+      featuredCleanFiles.forEach(function (file) {
+        var idx = remainingCleanDresses.findIndex(function (dress) {
+          return dress.file === file;
+        });
+        if (idx > -1) {
+          featuredCleanDresses.push(remainingCleanDresses.splice(idx, 1)[0]);
+        }
+      });
+
+      dressesForPage = preservedCleanLead.concat(featuredCleanDresses, remainingCleanDresses);
+    } else if (slug === "leicht-fliessend") {
+      dressesForPage = dressesForPage.filter(function (dress) {
+        return dress.file !== "25012 (3).JPEG";
+      });
+
+      var secondLightDressIndex = dressesForPage.findIndex(function (dress) {
+        return dress.file === "me 25313 39.JPG";
+      });
+      if (secondLightDressIndex > 1) {
+        var secondLightDress = dressesForPage.splice(secondLightDressIndex, 1)[0];
+        dressesForPage.splice(1, 0, secondLightDress);
+      }
+
+      var thirdLightDressIndex = dressesForPage.findIndex(function (dress) {
+        return dress.file === "25034 (1).JPEG";
+      });
+      if (thirdLightDressIndex > 2) {
+        var thirdLightDress = dressesForPage.splice(thirdLightDressIndex, 1)[0];
+        dressesForPage.splice(2, 0, thirdLightDress);
+      }
+    } else if (slug === "mit-spitze") {
+      dressesForPage = dressesForPage.filter(function (dress) {
+        return dress.file !== "30082w-1463.JPEG";
+      });
+    }
     if (!stage) return;
 
     var heroDresses = dressesForPage.slice(0, 2);
