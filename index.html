@@ -536,33 +536,89 @@
 	// Nur auf Mobil (< 768px) als Slider betreiben
 	if (window.matchMedia('(min-width: 768px)').matches) return;
 
-	const slides = track.querySelectorAll('img');
-	let current = 0;
+	const originals = Array.from(track.querySelectorAll('img'));
+	if (originals.length < 2) return;
+
+	const firstClone = originals[0].cloneNode(true);
+	const lastClone = originals[originals.length - 1].cloneNode(true);
+	firstClone.setAttribute('aria-hidden', 'true');
+	lastClone.setAttribute('aria-hidden', 'true');
+	track.insertBefore(lastClone, originals[0]);
+	track.appendChild(firstClone);
+
+	const slides = Array.from(track.querySelectorAll('img'));
+	const transitionValue = 'transform 0.55s cubic-bezier(0.22, 1, 0.36, 1)';
+	let current = 1;
+	let isTransitioning = false;
 	let timer;
 
 	// Build dots
-	slides.forEach((_, i) => {
+	originals.forEach((_, i) => {
 		const d = document.createElement('span');
 		d.className = 'dress-slider-dot' + (i === 0 ? ' active' : '');
 		d.addEventListener('click', () => { goTo(i); resetTimer(); });
 		dotsEl.appendChild(d);
 	});
 
-	function goTo(n) {
-		current = (n + slides.length) % slides.length;
+	function setPosition(animated) {
+		track.style.transition = animated ? transitionValue : 'none';
 		track.style.transform = 'translateX(-' + (current * 100) + '%)';
-		dotsEl.querySelectorAll('.dress-slider-dot').forEach((d, i) =>
-			d.classList.toggle('active', i === current));
+		if (!animated) {
+			track.offsetHeight;
+			track.style.transition = transitionValue;
+		}
 	}
 
-	function startTimer() { timer = setInterval(() => goTo(current + 1), 3500); }
+	function updateDots() {
+		const activeIndex = (current - 1 + originals.length) % originals.length;
+		dotsEl.querySelectorAll('.dress-slider-dot').forEach((d, i) =>
+			d.classList.toggle('active', i === activeIndex));
+	}
+
+	function goTo(index) {
+		const target = index + 1;
+		if (target === current || isTransitioning) return;
+		current = target;
+		isTransitioning = true;
+		setPosition(true);
+	}
+
+	function goNext() {
+		if (isTransitioning) return;
+		current += 1;
+		isTransitioning = true;
+		setPosition(true);
+	}
+
+	function goPrev() {
+		if (isTransitioning) return;
+		current -= 1;
+		isTransitioning = true;
+		setPosition(true);
+	}
+
+	track.addEventListener('transitionend', () => {
+		if (current === slides.length - 1) {
+			current = 1;
+			setPosition(false);
+		} else if (current === 0) {
+			current = slides.length - 2;
+			setPosition(false);
+		}
+		isTransitioning = false;
+		updateDots();
+	});
+
+	function startTimer() { timer = setInterval(goNext, 3500); }
 	function resetTimer() { clearInterval(timer); startTimer(); }
 
-	prevBtn.addEventListener('click', () => { goTo(current - 1); resetTimer(); });
-	nextBtn.addEventListener('click', () => { goTo(current + 1); resetTimer(); });
+	prevBtn.addEventListener('click', () => { goPrev(); resetTimer(); });
+	nextBtn.addEventListener('click', () => { goNext(); resetTimer(); });
 	wrap.addEventListener('mouseenter', () => clearInterval(timer));
 	wrap.addEventListener('mouseleave', startTimer);
 
+	setPosition(false);
+	updateDots();
 	startTimer();
 }());
 
