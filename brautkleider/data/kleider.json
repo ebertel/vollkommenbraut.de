@@ -1,0 +1,1288 @@
+{
+  "overview": {
+    "title": "Entdecke unsere Brautkleider",
+    "paragraphs": [
+      "Ob clean und modern, leicht und fließend, mit Spitze oder mit Ärmeln – unsere Kollektion ist so vielfältig wie die Frauen, die sie tragen.",
+      "Jedes Kleid wurde von mir mit großer Sorgfalt ausgewählt. Denn ein Brautkleid soll nicht nur wunderschön aussehen, sondern sich auch genauso anfühlen. Gemeinsam finden wir heraus, welches Kleid am besten zu dir, deiner Figur und deinem Stil passt.",
+      "Denn Bilder können viel zeigen. Aber wie sich ein Kleid anfühlt, wie ein Stoff fällt und wie sich deine Ausstrahlung verändert, lässt sich auf keinem Foto festhalten. Deshalb findest du hier nur einen kleinen Einblick in unsere Kollektion."
+    ]
+  },
+  "categories": [
+    {
+      "slug": "mit-aermeln",
+      "title": "Brautkleider mit Ärmeln",
+      "url": "./mit-aermeln/",
+      "heroImage": "/site/assets/sorted/mitaermeln/30134w-1138.JPEG",
+      "intro": "Du liebst Brautkleider mit Ärmeln? Dann wirst du diese Modelle lieben.",
+      "detailTitle": "Ärmel verleihen jedem Kleid Wirkung",
+      "detailParagraphs": [
+        "Mal romantisch, mal modern, mal verspielt - Ärmel verleihen jedem Kleid eine ganz besondere Wirkung.",
+        "Viele Modelle lassen sich ganz individuell an deine Wünsche anpassen. Und manchmal entsteht daraus etwas, das es so kein zweites Mal gibt. Vielleicht wartet genau hier dein Kleid auf dich."
+      ],
+      "storyTitle": "Viele Möglichkeiten, dein Kleid ganz individuell zu gestalten",
+      "storyText": "Manchmal sind es gerade die kleinen Details, die den Unterschied machen. Zusätzliche Träger, lange oder kurze Ärmel, Glitzertüll, eine Unterlegung im Rücken oder andere kleine Veränderungen können die Wirkung eines Kleides vollständig verändern. Durch meine Erfahrung als Schneidermeisterin kann ich schon während der Beratung einschätzen, welche Möglichkeiten es gibt und wie sich ein Kleid an deine Wünsche anpassen lässt.",
+      "pageTitle": "Brautkleider mit Ärmeln in Hamburg | Vollkommen.Braut",
+      "metaDescription": "Curvy Brautkleider mit Ärmeln in Hamburg: romantisch, elegant und modern. Entdecke deine Favoriten bei Vollkommen.Braut.",
+      "folder": "mitaermeln"
+    },
+    {
+      "slug": "schlicht-modern",
+      "title": "Clean und moderne Brautkleider",
+      "url": "./schlicht-modern/",
+      "heroImage": "/site/assets/sorted/cleanundschlicht/25026 (1).JPEG",
+      "intro": "Du liebst klare Linien, hochwertige Stoffe und zeitlose Eleganz? Dann wirst du unsere cleanen Brautkleider lieben.",
+      "detailTitle": "Weniger ist manchmal mehr",
+      "detailText": "Weniger ist manchmal mehr. Gerade minimalistische Designs zeigen, wie viel Wirkung in den kleinen Details steckt. Ob fließend, figurbetont oder klassisch - cleane Brautkleider wirken zeitlos und modern zugleich. Und manchmal braucht es nicht viel, damit ein Kleid seine ganze Wirkung entfaltet.",
+      "storyTitle": "Warum Vollkommen.Braut?",
+      "storyText": "Exklusive Beratung in privater Atmosphäre, Spezialisierung auf Curvy-Brautmode, große Auswahl unterschiedlicher Stilrichtungen, mehr als 20 Jahre Erfahrung als Schneidermeisterin, Änderungen im eigenen Atelier und persönliche Beratung ohne Zeitdruck - genau dafür steht Vollkommen.Braut.",
+      "pageTitle": "Clean und moderne Brautkleider in Hamburg | Vollkommen.Braut",
+      "metaDescription": "Clean und moderne Curvy Brautkleider in Hamburg. Zeitlose Modelle mit klaren Linien bei Vollkommen.Braut.",
+      "folder": "cleanundschlicht"
+    },
+    {
+      "slug": "leicht-fliessend",
+      "title": "Leichte und fließende Brautkleider",
+      "url": "./leicht-fliessend/",
+      "heroImage": "/site/assets/sorted/chiffron/25012 (3).JPEG",
+      "intro": "Du liebst leichte Stoffe und eine natürliche Ausstrahlung? Dann wirst du diese Kleider lieben.",
+      "detailTitle": "Leichtigkeit, die sich bewegt",
+      "detailText": "Fließender Chiffon verleiht jedem Kleid eine besondere Leichtigkeit und eine wunderschöne Bewegung. Gerade bei Sommerhochzeiten, Trauungen am Strand, einer Feier im Freien oder einer standesamtlichen Hochzeit sind diese Modelle besonders beliebt. Von schlicht bis romantisch findest du hier ganz unterschiedliche Stilrichtungen. Und manchmal ist es genau dieses Gefühl von Leichtigkeit, das aus einem Kleid dein Kleid macht.",
+      "storyTitle": "Warum Vollkommen.Braut?",
+      "storyText": "Exklusive Beratung in privater Atmosphäre, Spezialisierung auf Curvy-Brautmode, große Auswahl unterschiedlicher Stilrichtungen, mehr als 20 Jahre Erfahrung als Schneidermeisterin, Änderungen im eigenen Atelier und persönliche Beratung ohne Zeitdruck - genau dafür steht Vollkommen.Braut.",
+      "pageTitle": "Leichte und fließende Brautkleider in Hamburg | Vollkommen.Braut",
+      "metaDescription": "Leichte und fließende Curvy Brautkleider in Hamburg. Luftige Stoffe und moderne Schnitte bei Vollkommen.Braut.",
+      "folder": "chiffron"
+    },
+    {
+      "slug": "mit-spitze",
+      "title": "Brautkleider mit Spitze",
+      "url": "./mit-spitze/",
+      "heroImage": "/site/assets/sorted/tuelandspitze/30082w-1463.JPEG",
+      "intro": "Du liebst romantische Kleider, besondere Details und das gewisse Funkeln? Dann wirst du diese Modelle lieben.",
+      "detailTitle": "Romantische Details mit Charakter",
+      "detailText": "Tüll und Spitze verleihen jedem Kleid seinen ganz eigenen Charakter. Mal wirken die Modelle romantisch und verspielt, mal märchenhaft und auffällig. Zarte Spitze, funkelnde Details und unterschiedliche Stoffe sorgen dafür, dass jedes Kleid seine ganz eigene Wirkung entfaltet. Und manchmal ist es genau dieses Gefühl, das aus einem Kleid dein Kleid macht.",
+      "storyTitle": "Warum Vollkommen.Braut?",
+      "storyText": "Exklusive Beratung in privater Atmosphäre, Spezialisierung auf Curvy-Brautmode, große Auswahl unterschiedlicher Stilrichtungen, mehr als 20 Jahre Erfahrung als Schneidermeisterin, Änderungen im eigenen Atelier und persönliche Beratung ohne Zeitdruck - genau dafür steht Vollkommen.Braut.",
+      "pageTitle": "Brautkleider mit Spitze in Hamburg | Vollkommen.Braut",
+      "metaDescription": "Curvy Brautkleider mit Spitze in Hamburg. Romantische Details und moderne Passformen bei Vollkommen.Braut.",
+      "folder": "tuelandspitze"
+    }
+  ],
+  "dresses": [
+    {
+      "id": "dress-0001",
+      "title": "30134w 1138",
+      "folder": "mitaermeln",
+      "file": "30134w-1138.JPEG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0002",
+      "title": "30139W (1)",
+      "folder": "mitaermeln",
+      "file": "30139W (1).JPEG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0003",
+      "title": "35002 (2)",
+      "folder": "mitaermeln",
+      "file": "35002 (2).JPEG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0004",
+      "title": "35013%20(1)",
+      "folder": "mitaermeln",
+      "file": "35013%20(1).JPEG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0005",
+      "title": "35019U (1)",
+      "folder": "mitaermeln",
+      "file": "35019U (1).jpg",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0006",
+      "title": "35025 (1)",
+      "folder": "mitaermeln",
+      "file": "35025 (1).JPEG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0007",
+      "title": "36001(3) 2",
+      "folder": "mitaermeln",
+      "file": "36001(3) 2.JPEG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0008",
+      "title": "36002(5) 2",
+      "folder": "mitaermeln",
+      "file": "36002(5) 2.JPEG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0009",
+      "title": "36003(1) 2",
+      "folder": "mitaermeln",
+      "file": "36003(1) 2.JPEG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0010",
+      "title": "36020(1) 2",
+      "folder": "mitaermeln",
+      "file": "36020(1) 2.JPEG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0011",
+      "title": "36024(1) 2",
+      "folder": "mitaermeln",
+      "file": "36024(1) 2.JPEG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0012",
+      "title": "3D8A2EDD 2F80 4FAB BDCC 33291A784320",
+      "folder": "mitaermeln",
+      "file": "3D8A2EDD-2F80-4FAB-BDCC-33291A784320.PNG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0013",
+      "title": "6D60CD0C 87B3 44D2 8B35 35C592EF5F49",
+      "folder": "mitaermeln",
+      "file": "6D60CD0C-87B3-44D2-8B35-35C592EF5F49.PNG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0014",
+      "title": "FF87FF62 9F7E 491C 8218 A3FDB2AFFBFE",
+      "folder": "mitaermeln",
+      "file": "FF87FF62-9F7E-491C-8218-A3FDB2AFFBFE.PNG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0015",
+      "title": "IMG 0520",
+      "folder": "mitaermeln",
+      "file": "IMG_0520.JPG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0016",
+      "title": "IMG 1207",
+      "folder": "mitaermeln",
+      "file": "IMG_1207.JPG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0017",
+      "title": "IMG 1648",
+      "folder": "mitaermeln",
+      "file": "IMG_1648.JPG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0018",
+      "title": "IMG 3041",
+      "folder": "mitaermeln",
+      "file": "IMG_3041.jpg",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0019",
+      "title": "IMG 5339",
+      "folder": "mitaermeln",
+      "file": "IMG_5339.jpg",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0020",
+      "title": "IMG 5340",
+      "folder": "mitaermeln",
+      "file": "IMG_5340.jpg",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0021",
+      "title": "IMG 5358",
+      "folder": "mitaermeln",
+      "file": "IMG_5358.jpg",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0022",
+      "title": "IMG 6127",
+      "folder": "mitaermeln",
+      "file": "IMG_6127.JPG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0023",
+      "title": "IMG 6133",
+      "folder": "mitaermeln",
+      "file": "IMG_6133.JPG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0024",
+      "title": "IMG 6136",
+      "folder": "mitaermeln",
+      "file": "IMG_6136.JPG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0025",
+      "title": "IMG 6143",
+      "folder": "mitaermeln",
+      "file": "IMG_6143.JPG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0026",
+      "title": "IMG 6499",
+      "folder": "mitaermeln",
+      "file": "IMG_6499.jpg",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0027",
+      "title": "IMG 6599",
+      "folder": "mitaermeln",
+      "file": "IMG_6599.JPG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0028",
+      "title": "IMG 6604",
+      "folder": "mitaermeln",
+      "file": "IMG_6604.JPG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0029",
+      "title": "IMG 6609",
+      "folder": "mitaermeln",
+      "file": "IMG_6609.JPG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0030",
+      "title": "IMG 9164",
+      "folder": "mitaermeln",
+      "file": "IMG_9164.jpg",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0031",
+      "title": "IMG 9166",
+      "folder": "mitaermeln",
+      "file": "IMG_9166.JPG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0032",
+      "title": "IMG 9172",
+      "folder": "mitaermeln",
+      "file": "IMG_9172.JPG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0033",
+      "title": "IMG 9214",
+      "folder": "mitaermeln",
+      "file": "IMG_9214.JPG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0034",
+      "title": "Maya.",
+      "folder": "mitaermeln",
+      "file": "Maya..JPEG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0035",
+      "title": "me 25313 39",
+      "folder": "mitaermeln",
+      "file": "me 25313 39.JPG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0036",
+      "title": "me 25325 5405",
+      "folder": "mitaermeln",
+      "file": "me 25325 5405.JPG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0037",
+      "title": "ME 26305 front complete    sRGB",
+      "folder": "mitaermeln",
+      "file": "ME 26305 front complete  - sRGB.JPG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0038",
+      "title": "ME 26306 front complete    sRGB",
+      "folder": "mitaermeln",
+      "file": "ME 26306 front complete  - sRGB.JPG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0039",
+      "title": "ME 26310 front complete    sRGB",
+      "folder": "mitaermeln",
+      "file": "ME 26310 front complete  - sRGB.JPG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0040",
+      "title": "ME 26313 front complete    sRGB",
+      "folder": "mitaermeln",
+      "file": "ME 26313 front complete  - sRGB.JPG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0041",
+      "title": "Tina 1",
+      "folder": "mitaermeln",
+      "file": "Tina 1.JPEG",
+      "categories": [
+        "mit-aermeln"
+      ]
+    },
+    {
+      "id": "dress-0042",
+      "title": "25026 (1)",
+      "folder": "cleanundschlicht",
+      "file": "25026 (1).JPEG",
+      "categories": [
+        "schlicht-modern"
+      ]
+    },
+    {
+      "id": "dress-0043",
+      "title": "26028(1)",
+      "folder": "cleanundschlicht",
+      "file": "26028(1).JPEG",
+      "categories": [
+        "schlicht-modern"
+      ]
+    },
+    {
+      "id": "dress-0044",
+      "title": "30165w 2415",
+      "folder": "cleanundschlicht",
+      "file": "30165w-2415.JPEG",
+      "categories": [
+        "schlicht-modern"
+      ]
+    },
+    {
+      "id": "dress-0045",
+      "title": "30166W(1) 2",
+      "folder": "cleanundschlicht",
+      "file": "30166W(1) 2.JPEG",
+      "categories": [
+        "schlicht-modern"
+      ]
+    },
+    {
+      "id": "dress-0046",
+      "title": "35030 (3)",
+      "folder": "cleanundschlicht",
+      "file": "35030 (3).jpg",
+      "categories": [
+        "schlicht-modern"
+      ]
+    },
+    {
+      "id": "dress-0047",
+      "title": "36040(1)",
+      "folder": "cleanundschlicht",
+      "file": "36040(1).JPEG",
+      "categories": [
+        "schlicht-modern"
+      ]
+    },
+    {
+      "id": "dress-0048",
+      "title": "3D8A2EDD 2F80 4FAB BDCC 33291A784320",
+      "folder": "cleanundschlicht",
+      "file": "3D8A2EDD-2F80-4FAB-BDCC-33291A784320.PNG",
+      "categories": [
+        "schlicht-modern"
+      ]
+    },
+    {
+      "id": "dress-0049",
+      "title": "40100 (1)",
+      "folder": "cleanundschlicht",
+      "file": "40100 (1).JPEG",
+      "categories": [
+        "schlicht-modern"
+      ]
+    },
+    {
+      "id": "dress-0050",
+      "title": "40100 (2)",
+      "folder": "cleanundschlicht",
+      "file": "40100 (2).JPEG",
+      "categories": [
+        "schlicht-modern"
+      ]
+    },
+    {
+      "id": "dress-0051",
+      "title": "9C8B5E18 802F 4CFC 8E5B 634CCCB9A00A",
+      "folder": "cleanundschlicht",
+      "file": "9C8B5E18-802F-4CFC-8E5B-634CCCB9A00A.PNG",
+      "categories": [
+        "schlicht-modern"
+      ]
+    },
+    {
+      "id": "dress-0052",
+      "title": "BIONDA 3",
+      "folder": "cleanundschlicht",
+      "file": "BIONDA-3.JPEG",
+      "categories": [
+        "schlicht-modern"
+      ]
+    },
+    {
+      "id": "dress-0053",
+      "title": "IMG 0518",
+      "folder": "cleanundschlicht",
+      "file": "IMG_0518.JPG",
+      "categories": [
+        "schlicht-modern"
+      ]
+    },
+    {
+      "id": "dress-0054",
+      "title": "IMG 2959",
+      "folder": "cleanundschlicht",
+      "file": "IMG_2959.JPG",
+      "categories": [
+        "schlicht-modern"
+      ]
+    },
+    {
+      "id": "dress-0055",
+      "title": "IMG 5318",
+      "folder": "cleanundschlicht",
+      "file": "IMG_5318.JPG",
+      "categories": [
+        "schlicht-modern"
+      ]
+    },
+    {
+      "id": "dress-0056",
+      "title": "IMG 6136",
+      "folder": "cleanundschlicht",
+      "file": "IMG_6136.JPG",
+      "categories": [
+        "schlicht-modern"
+      ]
+    },
+    {
+      "id": "dress-0057",
+      "title": "IMG 6435",
+      "folder": "cleanundschlicht",
+      "file": "IMG_6435.JPG",
+      "categories": [
+        "schlicht-modern"
+      ]
+    },
+    {
+      "id": "dress-0058",
+      "title": "IMG 6440",
+      "folder": "cleanundschlicht",
+      "file": "IMG_6440.JPG",
+      "categories": [
+        "schlicht-modern"
+      ]
+    },
+    {
+      "id": "dress-0059",
+      "title": "IMG 6603",
+      "folder": "cleanundschlicht",
+      "file": "IMG_6603.JPG",
+      "categories": [
+        "schlicht-modern"
+      ]
+    },
+    {
+      "id": "dress-0060",
+      "title": "0D0893D8 0414 4CEE 93BF 4BB45B3F5C87 2",
+      "folder": "chiffron",
+      "file": "0D0893D8-0414-4CEE-93BF-4BB45B3F5C87 2.PNG",
+      "categories": [
+        "leicht-fliessend"
+      ]
+    },
+    {
+      "id": "dress-0061",
+      "title": "25012 (3)",
+      "folder": "chiffron",
+      "file": "25012 (3).JPEG",
+      "categories": [
+        "leicht-fliessend"
+      ]
+    },
+    {
+      "id": "dress-0062",
+      "title": "25034 (1)",
+      "folder": "chiffron",
+      "file": "25034 (1).JPEG",
+      "categories": [
+        "leicht-fliessend"
+      ]
+    },
+    {
+      "id": "dress-0063",
+      "title": "30138w 268",
+      "folder": "chiffron",
+      "file": "30138w-268.JPEG",
+      "categories": [
+        "leicht-fliessend"
+      ]
+    },
+    {
+      "id": "dress-0064",
+      "title": "30139W (1)",
+      "folder": "chiffron",
+      "file": "30139W (1).JPEG",
+      "categories": [
+        "leicht-fliessend"
+      ]
+    },
+    {
+      "id": "dress-0065",
+      "title": "30148w 2583",
+      "folder": "chiffron",
+      "file": "30148w-2583.JPEG",
+      "categories": [
+        "leicht-fliessend"
+      ]
+    },
+    {
+      "id": "dress-0066",
+      "title": "30148w 2649",
+      "folder": "chiffron",
+      "file": "30148w-2649.JPEG",
+      "categories": [
+        "leicht-fliessend"
+      ]
+    },
+    {
+      "id": "dress-0067",
+      "title": "30155w 3242",
+      "folder": "chiffron",
+      "file": "30155w-3242.JPEG",
+      "categories": [
+        "leicht-fliessend"
+      ]
+    },
+    {
+      "id": "dress-0068",
+      "title": "35007 (1)",
+      "folder": "chiffron",
+      "file": "35007 (1).JPEG",
+      "categories": [
+        "leicht-fliessend"
+      ]
+    },
+    {
+      "id": "dress-0069",
+      "title": "35019U (1)",
+      "folder": "chiffron",
+      "file": "35019U (1).jpg",
+      "categories": [
+        "leicht-fliessend"
+      ]
+    },
+    {
+      "id": "dress-0070",
+      "title": "36020(1) 2",
+      "folder": "chiffron",
+      "file": "36020(1) 2.JPEG",
+      "categories": [
+        "leicht-fliessend"
+      ]
+    },
+    {
+      "id": "dress-0071",
+      "title": "36024(1) 2",
+      "folder": "chiffron",
+      "file": "36024(1) 2.JPEG",
+      "categories": [
+        "leicht-fliessend"
+      ]
+    },
+    {
+      "id": "dress-0072",
+      "title": "36024(5)",
+      "folder": "chiffron",
+      "file": "36024(5).JPEG",
+      "categories": [
+        "leicht-fliessend"
+      ]
+    },
+    {
+      "id": "dress-0073",
+      "title": "36046(1)",
+      "folder": "chiffron",
+      "file": "36046(1).JPEG",
+      "categories": [
+        "leicht-fliessend"
+      ]
+    },
+    {
+      "id": "dress-0074",
+      "title": "36046(6)",
+      "folder": "chiffron",
+      "file": "36046(6).JPEG",
+      "categories": [
+        "leicht-fliessend"
+      ]
+    },
+    {
+      "id": "dress-0075",
+      "title": "3D8A2EDD 2F80 4FAB BDCC 33291A784320",
+      "folder": "chiffron",
+      "file": "3D8A2EDD-2F80-4FAB-BDCC-33291A784320.PNG",
+      "categories": [
+        "leicht-fliessend"
+      ]
+    },
+    {
+      "id": "dress-0076",
+      "title": "IMG 0520",
+      "folder": "chiffron",
+      "file": "IMG_0520.JPG",
+      "categories": [
+        "leicht-fliessend"
+      ]
+    },
+    {
+      "id": "dress-0077",
+      "title": "IMG 1207",
+      "folder": "chiffron",
+      "file": "IMG_1207.JPG",
+      "categories": [
+        "leicht-fliessend"
+      ]
+    },
+    {
+      "id": "dress-0078",
+      "title": "IMG 3111",
+      "folder": "chiffron",
+      "file": "IMG_3111.jpg",
+      "categories": [
+        "leicht-fliessend"
+      ]
+    },
+    {
+      "id": "dress-0079",
+      "title": "IMG 5356",
+      "folder": "chiffron",
+      "file": "IMG_5356.jpg",
+      "categories": [
+        "leicht-fliessend"
+      ]
+    },
+    {
+      "id": "dress-0080",
+      "title": "IMG 5357",
+      "folder": "chiffron",
+      "file": "IMG_5357.jpg",
+      "categories": [
+        "leicht-fliessend"
+      ]
+    },
+    {
+      "id": "dress-0081",
+      "title": "IMG 6136",
+      "folder": "chiffron",
+      "file": "IMG_6136.JPG",
+      "categories": [
+        "leicht-fliessend"
+      ]
+    },
+    {
+      "id": "dress-0082",
+      "title": "me 25306 82",
+      "folder": "chiffron",
+      "file": "me 25306 82.JPG",
+      "categories": [
+        "leicht-fliessend"
+      ]
+    },
+    {
+      "id": "dress-0083",
+      "title": "me 25313 39",
+      "folder": "chiffron",
+      "file": "me 25313 39.JPG",
+      "categories": [
+        "leicht-fliessend"
+      ]
+    },
+    {
+      "id": "dress-0084",
+      "title": "30082w 1463",
+      "folder": "tuelandspitze",
+      "file": "30082w-1463.JPEG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0085",
+      "title": "30107W (1)",
+      "folder": "tuelandspitze",
+      "file": "30107W (1).JPEG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0086",
+      "title": "30146w 3941",
+      "folder": "tuelandspitze",
+      "file": "30146w-3941.JPEG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0087",
+      "title": "30151w 2864",
+      "folder": "tuelandspitze",
+      "file": "30151w-2864.JPEG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0088",
+      "title": "30154w 1773 2",
+      "folder": "tuelandspitze",
+      "file": "30154w-1773 2.JPEG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0089",
+      "title": "308F6FAB 091D 4664 9732 B565D2FE2DE9",
+      "folder": "tuelandspitze",
+      "file": "308F6FAB-091D-4664-9732-B565D2FE2DE9.PNG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0090",
+      "title": "35002 (1)",
+      "folder": "tuelandspitze",
+      "file": "35002 (1).JPEG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0091",
+      "title": "35008 (1)",
+      "folder": "tuelandspitze",
+      "file": "35008 (1).JPEG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0092",
+      "title": "35010 (1)",
+      "folder": "tuelandspitze",
+      "file": "35010 (1).JPEG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0093",
+      "title": "35012 (1)",
+      "folder": "tuelandspitze",
+      "file": "35012 (1).JPEG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0094",
+      "title": "35025 (1)",
+      "folder": "tuelandspitze",
+      "file": "35025 (1).JPEG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0095",
+      "title": "36001(1) 2",
+      "folder": "tuelandspitze",
+      "file": "36001(1) 2.JPEG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0096",
+      "title": "36002(1)",
+      "folder": "tuelandspitze",
+      "file": "36002(1).JPEG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0097",
+      "title": "36003(1) 2",
+      "folder": "tuelandspitze",
+      "file": "36003(1) 2.JPEG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0098",
+      "title": "36004(1) 2",
+      "folder": "tuelandspitze",
+      "file": "36004(1) 2.JPEG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0099",
+      "title": "36007(1)",
+      "folder": "tuelandspitze",
+      "file": "36007(1).JPEG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0100",
+      "title": "36010U(1) 2",
+      "folder": "tuelandspitze",
+      "file": "36010U(1) 2.JPEG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0101",
+      "title": "36014(1) 2",
+      "folder": "tuelandspitze",
+      "file": "36014(1) 2.JPEG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0102",
+      "title": "36015U(1)",
+      "folder": "tuelandspitze",
+      "file": "36015U(1).JPEG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0103",
+      "title": "36019(1) 2",
+      "folder": "tuelandspitze",
+      "file": "36019(1) 2.JPEG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0104",
+      "title": "36025(3) 2",
+      "folder": "tuelandspitze",
+      "file": "36025(3) 2.JPEG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0105",
+      "title": "36027J(1)+36041",
+      "folder": "tuelandspitze",
+      "file": "36027J(1)+36041.JPEG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0106",
+      "title": "931C5CE0 15BA 42F3 8247 8AE78D5AD28E",
+      "folder": "tuelandspitze",
+      "file": "931C5CE0-15BA-42F3-8247-8AE78D5AD28E.JPG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0107",
+      "title": "IMG 1648",
+      "folder": "tuelandspitze",
+      "file": "IMG_1648.JPG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0108",
+      "title": "IMG 1656",
+      "folder": "tuelandspitze",
+      "file": "IMG_1656.JPG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0109",
+      "title": "IMG 5244",
+      "folder": "tuelandspitze",
+      "file": "IMG_5244.jpg",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0110",
+      "title": "IMG 5358",
+      "folder": "tuelandspitze",
+      "file": "IMG_5358.jpg",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0111",
+      "title": "IMG 5359",
+      "folder": "tuelandspitze",
+      "file": "IMG_5359.jpg",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0112",
+      "title": "IMG 5360",
+      "folder": "tuelandspitze",
+      "file": "IMG_5360.jpg",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0113",
+      "title": "IMG 6127",
+      "folder": "tuelandspitze",
+      "file": "IMG_6127.JPG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0114",
+      "title": "IMG 6141",
+      "folder": "tuelandspitze",
+      "file": "IMG_6141.JPG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0115",
+      "title": "IMG 6149",
+      "folder": "tuelandspitze",
+      "file": "IMG_6149.JPG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0116",
+      "title": "IMG 6599",
+      "folder": "tuelandspitze",
+      "file": "IMG_6599.JPG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0117",
+      "title": "IMG 6609",
+      "folder": "tuelandspitze",
+      "file": "IMG_6609.JPG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0118",
+      "title": "IMG 7004",
+      "folder": "tuelandspitze",
+      "file": "IMG_7004.jpg",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0119",
+      "title": "IMG 9164",
+      "folder": "tuelandspitze",
+      "file": "IMG_9164.jpg",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0120",
+      "title": "IMG 9166",
+      "folder": "tuelandspitze",
+      "file": "IMG_9166.JPG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0121",
+      "title": "IMG 9172",
+      "folder": "tuelandspitze",
+      "file": "IMG_9172.JPG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0122",
+      "title": "IMG 9199",
+      "folder": "tuelandspitze",
+      "file": "IMG_9199.JPG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0123",
+      "title": "IMG 9204",
+      "folder": "tuelandspitze",
+      "file": "IMG_9204.JPG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0124",
+      "title": "IMG 9209",
+      "folder": "tuelandspitze",
+      "file": "IMG_9209.JPG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0125",
+      "title": "IMG 9214",
+      "folder": "tuelandspitze",
+      "file": "IMG_9214.JPG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0126",
+      "title": "Ines plus size wedding dress (2)",
+      "folder": "tuelandspitze",
+      "file": "Ines plus size wedding dress (2).JPEG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0127",
+      "title": "LASABINA Bianca 3 scaled",
+      "folder": "tuelandspitze",
+      "file": "LASABINA_Bianca-3-scaled.JPEG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0128",
+      "title": "Maya.",
+      "folder": "tuelandspitze",
+      "file": "Maya..JPEG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0129",
+      "title": "me 25301 6396",
+      "folder": "tuelandspitze",
+      "file": "me 25301 6396.JPG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0130",
+      "title": "me 25325 5405",
+      "folder": "tuelandspitze",
+      "file": "me 25325 5405.JPG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0131",
+      "title": "ME 26313 front complete    sRGB",
+      "folder": "tuelandspitze",
+      "file": "ME 26313 front complete  - sRGB.JPG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0132",
+      "title": "ME 26321 front    sRGB",
+      "folder": "tuelandspitze",
+      "file": "ME 26321 front  - sRGB.JPG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0133",
+      "title": "ME 26322 front    sRGB",
+      "folder": "tuelandspitze",
+      "file": "ME 26322 front  - sRGB.JPG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0134",
+      "title": "me 23322 f str",
+      "folder": "tuelandspitze",
+      "file": "me_23322_f_str.JPG",
+      "categories": [
+        "mit-spitze"
+      ]
+    },
+    {
+      "id": "dress-0135",
+      "title": "vollkommenbraut pronovias ashley graham curvy xl brautkleid hunter",
+      "folder": "tuelandspitze",
+      "file": "vollkommenbraut-pronovias-ashley-graham-curvy-xl-brautkleid-hunter.JPEG",
+      "categories": [
+        "mit-spitze"
+      ]
+    }
+  ]
+}

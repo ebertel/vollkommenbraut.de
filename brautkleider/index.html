@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>BRAUTKLEIDER | Vollkommen.Braut</title>
-    <meta name="description" content="Traumhafte Curvy Brautkleider ab Größe 42 bis 60+. Entdecke verschiedene Stilrichtungen – Prinzessin, A-Linie, Mermaid. Exklusive Anprobe nur für dich.">
+    <meta name="description" content="Entdecke Brautkleider mit Ärmeln, cleane moderne Modelle, leichte fließende Brautkleider und Brautkleider mit Spitze in Hamburg.">
 
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="https://www.vollkommenbraut.de/brautkleider/">
@@ -13,7 +13,7 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Vollkommen.Braut">
     <meta property="og:title" content="BRAUTKLEIDER | Vollkommen.Braut">
-    <meta property="og:description" content="Traumhafte Curvy Brautkleider ab Größe 42 bis 60+. Entdecke verschiedene Stilrichtungen – Prinzessin, A-Linie, Mermaid.">
+    <meta property="og:description" content="Entdecke Brautkleider mit Ärmeln, cleane moderne Modelle, leichte fließende Brautkleider und Brautkleider mit Spitze in Hamburg.">
     <meta property="og:url" content="https://www.vollkommenbraut.de/brautkleider/">
     <meta property="og:image" content="https://www.vollkommenbraut.de/site/assets/files/1047/img_2334_quadrat-1.jpg">
 
@@ -48,6 +48,297 @@
         }
         .brand-section:nth-child(even) {
             background: #f5f0eb;
+        }
+        .brautkleider-intro {
+            text-align: center;
+            padding: 3rem 0 1rem;
+        }
+        .brautkleider-intro h1 {
+            font-size: 2.1rem;
+            line-height: 1.1;
+            letter-spacing: 0.08em;
+            color: #5f5246;
+            margin-bottom: 1rem;
+            font-weight: 300;
+        }
+        .brautkleider-intro p {
+            max-width: 760px;
+            margin: 0 auto 1rem;
+            color: #5f5246;
+            line-height: 1.8;
+            font-size: 1.05rem;
+        }
+        .brautkleider-hinweis {
+            max-width: 760px;
+            margin: 1.5rem auto 0;
+            padding: 1rem 1.25rem;
+            border: 1px solid #e7dcd2;
+            border-radius: 1rem;
+            background: #fffaf6;
+        }
+        .brautkleider-anker {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 1rem;
+            margin: 2rem auto 0;
+            max-width: 980px;
+        }
+        @media screen and (min-width: 900px) {
+            .brautkleider-anker {
+                grid-template-columns: repeat(4, minmax(0, 1fr));
+            }
+        }
+        .brautkleider-anker a {
+            display: block;
+            overflow: hidden;
+            border-radius: 1rem;
+            border: 1px solid rgba(139, 115, 85, 0.18);
+            background: #fff;
+            text-decoration: none;
+            color: #5f5246;
+            box-shadow: 0 10px 30px rgba(139, 115, 85, 0.08);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .brautkleider-anker a:hover,
+        .brautkleider-anker a:focus {
+            transform: translateY(-2px);
+            box-shadow: 0 14px 36px rgba(139, 115, 85, 0.14);
+        }
+        .brautkleider-anker img {
+            width: 100%;
+            aspect-ratio: 4 / 5;
+            object-fit: cover;
+            display: block;
+        }
+        .brautkleider-anker span {
+            display: block;
+            padding: 0.9rem 0.85rem 1rem;
+            font-size: 0.9rem;
+            line-height: 1.4;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        .brautkleider-kategorie {
+            padding-top: 3rem;
+            margin-top: 3rem;
+            border-top: 1px solid #eadfd6;
+        }
+        .brautkleider-kategorie h2 {
+            text-align: center;
+            font-size: 1.45rem;
+            line-height: 1.2;
+            letter-spacing: 0.12em;
+            color: #8b7355;
+            margin-bottom: 0.75rem;
+            font-weight: 300;
+        }
+        .brautkleider-kategorie p {
+            max-width: 760px;
+            margin: 0 auto 1.75rem;
+            text-align: center;
+            color: #5f5246;
+            line-height: 1.7;
+        }
+        .category-stage {
+            display: flex;
+            flex-direction: column;
+            gap: 2.5rem;
+            margin-top: 2rem;
+            align-items: stretch;
+            width: min(90vw, 2000px);
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .category-stage .overview-row {
+            display: grid;
+            grid-template-columns: 40% 30% 30%;
+            gap: 1.5rem;
+            width: 100%;
+            margin: 0 auto;
+            padding: 0;
+            align-items: stretch;
+        }
+        .category-stage .overview-copy {
+            align-self: center;
+            padding: 2rem 1.5rem 2rem 0;
+            opacity: 0;
+            transform: translateX(-56px);
+            transition: opacity 0.75s ease, transform 0.75s ease;
+        }
+        .category-stage .overview-copy.is-visible {
+            opacity: 1;
+            transform: translateX(0);
+        }
+        .category-stage .overview-copy h1 {
+            margin: 0 0 1rem;
+            color: #5f5246;
+            font-size: 2.2rem;
+            line-height: 1.1;
+            letter-spacing: 0.08em;
+            font-weight: 300;
+        }
+        .overview-entry + .overview-entry {
+            margin-top: 2rem;
+        }
+        .overview-entry {
+            max-width: 32rem;
+        }
+        .overview-entry h1,
+        .overview-entry h2 {
+            margin: 0 0 0.75rem;
+            color: #5f5246;
+            letter-spacing: 0.08em;
+            font-weight: 300;
+        }
+        .overview-entry h1 {
+            font-size: 2rem;
+        }
+        .overview-entry h2 {
+            font-size: 1.55rem;
+        }
+        .overview-entry p {
+            margin: 0;
+            color: #5f5246;
+            line-height: 1.75;
+            font-size: 1.05rem;
+            max-width: none;
+            text-align: left;
+        }
+        .category-stage .overview-tile {
+            min-height: 320px;
+            opacity: 0;
+            transform: translateX(56px);
+            transition: opacity 0.75s ease, transform 0.75s ease;
+        }
+        .category-stage .overview-tile.is-visible {
+            opacity: 1;
+            transform: translateX(0);
+        }
+        .category-stage .overview-row > .overview-tile:nth-child(2) {
+            grid-column: 2;
+        }
+        .category-stage .overview-row > .overview-tile:nth-child(3) {
+            grid-column: 3;
+        }
+        .overview-mobile-stack {
+            display: none;
+        }
+        .overview-mobile-entry {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .category-tile-content {
+            text-align: center;
+        }
+        .category-tile-content p {
+            text-align: center;
+        }
+        .category-tile {
+            position: relative;
+            display: block;
+            border-radius: 1rem;
+            overflow: hidden;
+            min-height: 420px;
+            box-shadow: 0 8px 28px rgba(0, 0, 0, 0.18);
+            text-decoration: none;
+            color: #fff;
+        }
+        .category-tile img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.35s ease;
+        }
+        .category-tile::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.12) 55%, rgba(0, 0, 0, 0.06));
+        }
+        .category-tile-content {
+            position: absolute;
+            left: 1.25rem;
+            right: 1.25rem;
+            bottom: 1.25rem;
+            z-index: 1;
+        }
+        .category-tile-content h2 {
+            margin: 0;
+            font-size: 1.3rem;
+            line-height: 1.2;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+        .category-tile-content p {
+            margin: 0.5rem 0 0;
+            color: #f9f4ef;
+            font-size: 0.95rem;
+            line-height: 1.4;
+            max-width: none;
+            text-align: center;
+        }
+        .category-tile:hover img,
+        .category-tile:focus img {
+            transform: scale(1.05);
+        }
+        @media screen and (max-width: 980px) {
+            .category-stage {
+                gap: 1.75rem;
+                width: 95vw;
+            }
+            .category-stage .overview-row {
+                grid-template-columns: 1fr;
+                padding: 0;
+            }
+            .category-stage .overview-copy {
+                padding: 0;
+                text-align: left;
+            }
+            .overview-entry p {
+                margin-left: 0;
+                margin-right: 0;
+            }
+            .category-stage .overview-tile {
+                min-height: 330px;
+            }
+            .category-stage .overview-row > .overview-tile:nth-child(n) { grid-column: auto !important; }
+        }
+        @media screen and (max-width: 760px) {
+            .category-stage {
+                gap: 1rem;
+                width: calc(100vw - 2rem);
+            }
+            .category-stage .overview-row {
+                display: none;
+            }
+            .overview-mobile-stack {
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                padding: 0 1rem;
+            }
+            .overview-mobile-entry .overview-entry {
+                text-align: center;
+                max-width: none;
+            }
+            .overview-mobile-entry .overview-entry p {
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 22rem;
+                text-align: center;
+            }
+            .overview-mobile-entry .overview-entry p:not(:first-of-type) {
+                display: none;
+            }
+            .category-tile {
+                min-height: 260px;
+                width: 100%;
+            }
+            .category-tile-content h2 {
+                font-size: 1.15rem;
+            }
         }
         .brand-title {
             font-size: 1.5rem;
@@ -205,7 +496,7 @@
     </script>
 </head>
 
-<body class="body_home">
+<body class="body_home" data-page-type="overview" data-data-url="./data/kleider.json">
 
 <div id="header">
     <div id="header_fixed">
@@ -220,207 +511,25 @@
                 <div id="buchen_top_right" class="nav"> <a href="https://connect.shore.com/bookings/vollkommen-braut-the-curvy-bridal-boutique/services?locale=de&amp;origin=standalone" target="_blank" onclick="gtag('event', 'conversion', {'send_to': 'AW-867464507/fnGdCK3GxpIDELvq0Z0D'});"> Jetzt buchen!</a></div>
             </div>
             <div class="clear"></div>
-        </div>
-        <div id="wrapper_hamburger_navi_top">
-            <div class="hamburger"></div>
-        </div>
-        <div id="wrapper_hamburger_navi_top_overlay">
-            <div id="navi_top_hamburger" class="navi_top_hamburger mobile nav">
-                <ul id="wrap_the_lis_mobile"><li class="level-1 current"><a href="./"><span>BRAUTKLEIDER</span></a></li><li class="level-1"><a href="../accessoires/"><span>ACCESSOIRES</span></a></li><li class="level-1"><a href="../termine/"><span>TERMINE</span></a></li><li class="level-1"><a href="../curvy-brides/"><span>CURVY BRIDES</span></a></li><li class="level-1"><a href="../uber-uns/"><span>ÜBER MICH</span></a></li><li class="level-1"><a href="../kontakt/"><span>KONTAKT</span></a></li><li class="level-1"><a href="../faq/"><span>FAQ</span></a></li></ul>
             </div>
-        </div>
-    </div>
-</div>
-
-<div id="content_wrapper">
-    <div id="content">
-
-        <!-- Galerie -->
-        <div class="wrappy">
-            <div class="galerie_wrapper">
-                <div class="wrapper_bild vierspaltig galerie">
-                    <div class="bild rounded"><a href="../site/assets/files/1077/35002-_3_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/35002-_3_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/35002-_1_-2_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/35002-_1_-2_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/35002-_2_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/35002-_2_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/35025-_2_-2_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/35025-_2_-2_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/35025-_1_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/35025-_1_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/Amelie.Brautkleider.2027/30166W(1).JPEG" data-fancybox="gallery"><img src="../site/assets/Amelie.Brautkleider.2027/thumbnails/30166W(1).JPEG" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/Brautkleider.20260726/0D0893D8-0414-4CEE-93BF-4BB45B3F5C87.jpg" data-fancybox="gallery"><img src="../site/assets/Brautkleider.20260726/0D0893D8-0414-4CEE-93BF-4BB45B3F5C87.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/vollkommenbraut-curvy-brautkleid-hochzeitskleid-plussize-bella-amelie-bridal_13_quadrat.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/vollkommenbraut-curvy-brautkleid-hochzeitskleid-plussize-bella-amelie-bridal_13_quadrat.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/vollkommenbraut-curvy-brautkleid-hochzeitskleid-plussize-bella-amelie-bridal_14_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/vollkommenbraut-curvy-brautkleid-hochzeitskleid-plussize-bella-amelie-bridal_14_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/vollkommenbraut-curvy-brautkleid-hochzeitskleid-plussize-bella-amelie-bridal_15_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/vollkommenbraut-curvy-brautkleid-hochzeitskleid-plussize-bella-amelie-bridal_15_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/Amelie.Brautkleider.2027/36001(1).JPEG" data-fancybox="gallery"><img src="../site/assets/Amelie.Brautkleider.2027/thumbnails/36001(1).JPEG" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/35010-_3_bearb_quadrat.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/35010-_3_bearb_quadrat.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/Brautkleider.20260726/308F6FAB-091D-4664-9732-B565D2FE2DE9.jpg" data-fancybox="gallery"><img src="../site/assets/Brautkleider.20260726/308F6FAB-091D-4664-9732-B565D2FE2DE9.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/35010-_2_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/35010-_2_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/35019u-_2_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/35019u-_2_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/35019u-_1_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/35019u-_1_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/Amelie.Brautkleider.2027/36001(3).JPEG" data-fancybox="gallery"><img src="../site/assets/Amelie.Brautkleider.2027/thumbnails/36001(3).JPEG" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/30134w-1138_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/30134w-1138_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/img_3265_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/img_3265_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/img_3273_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/img_3273_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/img_3269_quadrat-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/img_3269_quadrat-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/30139w_3_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/30139w_3_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/Brautkleider.20260726/3D8A2EDD-2F80-4FAB-BDCC-33291A784320.jpg" data-fancybox="gallery"><img src="../site/assets/Brautkleider.20260726/3D8A2EDD-2F80-4FAB-BDCC-33291A784320.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/30139w-_4_2_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/30139w-_4_2_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/vollkommenbraut-curvy-brautkleid-hochzeitskleid-plussize-bella-amelie-bridal_7_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/vollkommenbraut-curvy-brautkleid-hochzeitskleid-plussize-bella-amelie-bridal_7_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/Amelie.Brautkleider.2027/36002(5).JPEG" data-fancybox="gallery"><img src="../site/assets/Amelie.Brautkleider.2027/thumbnails/36002(5).JPEG" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/35030-_3_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/35030-_3_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/35030-_2_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/35030-_2_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/35012-_3_bearb_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/35012-_3_bearb_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/35012-_2_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/35012-_2_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/vollkommenbraut-curvy-brautkleid-hochzeitskleid-plussize-bella-amelie-bridal_16_quadrat.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/vollkommenbraut-curvy-brautkleid-hochzeitskleid-plussize-bella-amelie-bridal_16_quadrat.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/vollkommenbraut-curvy-brautkleid-hochzeitskleid-plussize-bella-amelie-bridal_17_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/vollkommenbraut-curvy-brautkleid-hochzeitskleid-plussize-bella-amelie-bridal_17_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/Amelie.Brautkleider.2027/36003(1).JPEG" data-fancybox="gallery"><img src="../site/assets/Amelie.Brautkleider.2027/thumbnails/36003(1).JPEG" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/vollkommenbraut-curvy-brautkleid-hochzeitskleid-plussize-bella-amelie-bridal_18_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/vollkommenbraut-curvy-brautkleid-hochzeitskleid-plussize-bella-amelie-bridal_18_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/Brautkleider.20260726/A3F7651D-5AD8-4F46-9A49-A682CF0359F8.jpg" data-fancybox="gallery"><img src="../site/assets/Brautkleider.20260726/A3F7651D-5AD8-4F46-9A49-A682CF0359F8.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/img_3383_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/img_3383_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/img_3386_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/img_3386_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/30138w-335_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/30138w-335_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/30138w-268_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/30138w-268_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/Amelie.Brautkleider.2027/36004(1).JPEG" data-fancybox="gallery"><img src="../site/assets/Amelie.Brautkleider.2027/thumbnails/36004(1).JPEG" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/35008-_2_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/35008-_2_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/35008-_1_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/35008-_1_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/vollkommenbraut-curvy-brautkleid-hochzeitskleid-plussize-bella-amelie-bridal_6_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/vollkommenbraut-curvy-brautkleid-hochzeitskleid-plussize-bella-amelie-bridal_6_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/30160w-_1_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/30160w-_1_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/Amelie.Brautkleider.2027/36010U(1).JPEG" data-fancybox="gallery"><img src="../site/assets/Amelie.Brautkleider.2027/thumbnails/36010U(1).JPEG" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/30160w-_2_quadrat.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/30160w-_2_quadrat.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/Brautkleider.20260726/DE25A2E7-1139-49F6-8935-E2F1707736A4.jpg" data-fancybox="gallery"><img src="../site/assets/Brautkleider.20260726/DE25A2E7-1139-49F6-8935-E2F1707736A4.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/30139w-_1_quadrat.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/30139w-_1_quadrat.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1077/30139w-_2_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1077/30139w-_2_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1136/img_3218_quadrat-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1136/img_3218_quadrat-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1136/img_3195_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1136/img_3195_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1136/img_6648_quadrat-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1136/img_6648_quadrat-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/Amelie.Brautkleider.2027/36010U(4).JPEG" data-fancybox="gallery"><img src="../site/assets/Amelie.Brautkleider.2027/thumbnails/36010U(4).JPEG" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1136/img_6647_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1136/img_6647_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1136/img_3284_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1136/img_3284_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1136/img_6459_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1136/img_6459_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/Amelie.Brautkleider.2027/36014(1).JPEG" data-fancybox="gallery"><img src="../site/assets/Amelie.Brautkleider.2027/thumbnails/36014(1).JPEG" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1136/img_6458_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1136/img_6458_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1136/img_6460_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1136/img_6460_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1136/img_3229_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1136/img_3229_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1136/img_3238_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1136/img_3238_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/Amelie.Brautkleider.2027/36016(1).JPEG" data-fancybox="gallery"><img src="../site/assets/Amelie.Brautkleider.2027/thumbnails/36016(1).JPEG" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1136/img_3298_bearb_interpol_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1136/img_3298_bearb_interpol_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1136/img_3140_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1136/img_3140_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1136/img_3138_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1136/img_3138_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/Amelie.Brautkleider.2027/36016(4).JPEG" data-fancybox="gallery"><img src="../site/assets/Amelie.Brautkleider.2027/thumbnails/36016(4).JPEG" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1136/img_3141_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1136/img_3141_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1136/img_6442_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1136/img_6442_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1136/img_6443_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1136/img_6443_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1136/img_3113_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1136/img_3113_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1136/img_3111_quadrat-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1136/img_3111_quadrat-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1136/img_6436_quadrat-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1136/img_6436_quadrat-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1136/img_6435_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1136/img_6435_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1136/img_6433_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1136/img_6433_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/Amelie.Brautkleider.2027/36019(1).JPEG" data-fancybox="gallery"><img src="../site/assets/Amelie.Brautkleider.2027/thumbnails/36019(1).JPEG" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/photo-2025-04-14-08-57-26_bearb-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/photo-2025-04-14-08-57-26_bearb-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-26305-back-complete----srgb_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-26305-back-complete----srgb_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-26305-front-detached----srgb_bearb_quadrat.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-26305-front-detached----srgb_bearb_quadrat.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-26304-front-complete----srgb_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-26304-front-complete----srgb_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-25319-4765_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-25319-4765_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-25319-4836_quadrat.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-25319-4836_quadrat.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-25320-3882_quadrat.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-25320-3882_quadrat.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-25301-6396_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-25301-6396_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-25301-6440_quer.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-25301-6440_quer.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me_23317_f_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me_23317_f_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me_23317_b_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me_23317_b_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-26313-back-complete----srgb_bearb_quadrat.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-26313-back-complete----srgb_bearb_quadrat.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-26313-front-complete----srgb_bearb_zuschnitt.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-26313-front-complete----srgb_bearb_zuschnitt.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-26313-front-detached----srgb_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-26313-front-detached----srgb_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/Amelie.Brautkleider.2027/36024(1).JPEG" data-fancybox="gallery"><img src="../site/assets/Amelie.Brautkleider.2027/thumbnails/36024(1).JPEG" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-26313-back-detached----srgb_bearb_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-26313-back-detached----srgb_bearb_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-26321-front----srgb_bearb_quadrat.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-26321-front----srgb_bearb_quadrat.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-26321-back----srgb_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-26321-back----srgb_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-25314-2757_quadrat.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-25314-2757_quadrat.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-25314-2850_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-25314-2850_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me_25314_2850_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me_25314_2850_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-25309-4556_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-25309-4556_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-25309-4679_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-25309-4679_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-25309-4628_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-25309-4628_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me_23312_f_quadrat-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me_23312_f_quadrat-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me_23312_b_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me_23312_b_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-26310-front-complete----srgb_bearb_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-26310-front-complete----srgb_bearb_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-26310-back-complete----srgb_bearb_quadrat.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-26310-back-complete----srgb_bearb_quadrat.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/Amelie.Brautkleider.2027/36025(3).JPEG" data-fancybox="gallery"><img src="../site/assets/Amelie.Brautkleider.2027/thumbnails/36025(3).JPEG" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-26308-front----srgb_bearb_quadrat.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-26308-front----srgb_bearb_quadrat.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/tc-26224-front_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/tc-26224-front_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-25306-82_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-25306-82_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-25306-151_quadrat.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-25306-151_quadrat.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-25303-6107_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-25303-6107_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-25303-6181_quer.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-25303-6181_quer.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-25317-5890_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-25317-5890_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-25317-5966_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-25317-5966_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/Amelie.Brautkleider.2027/DB1809FA-5F26-4102-AE8A-4A8647B7F9C2.JPG" data-fancybox="gallery"><img src="../site/assets/Amelie.Brautkleider.2027/thumbnails/DB1809FA-5F26-4102-AE8A-4A8647B7F9C2.JPG" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-26306-hero----srgb_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-26306-hero----srgb_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-26306-front-detached----srgb_bearb_zuschnitt.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-26306-front-detached----srgb_bearb_zuschnitt.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/br-26216-front----srgb_bearb_quadrat.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/br-26216-front----srgb_bearb_quadrat.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-25325-5308_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-25325-5308_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-25325-5270_quer.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-25325-5270_quer.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-25325-5405_quadrat.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-25325-5405_quadrat.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-25313-39_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-25313-39_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me-25313-152_quadrat.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me-25313-152_quadrat.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me_23322_f_str_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me_23322_f_str_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/Amelie.Brautkleider.2027/36020(1).JPEG" data-fancybox="gallery"><img src="../site/assets/Amelie.Brautkleider.2027/thumbnails/36020(1).JPEG" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1103/me_23322_f_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1103/me_23322_f_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1150/ivonne-close-up-1_quadrat-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1150/ivonne-close-up-1_quadrat-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1150/jules-front_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1150/jules-front_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1150/jules-back-close_quadrat-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1150/jules-back-close_quadrat-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1150/img_9162_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1150/img_9162_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1150/img_9163_quadrat.jpg" data-fancybox="gallery"><img src="../site/assets/files/1150/img_9163_quadrat.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1150/vollkommenbraut-bridalstar-hope-plus-size-brautkleid_3_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1150/vollkommenbraut-bridalstar-hope-plus-size-brautkleid_3_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1150/vollkommenbraut-bridalstar-becky-plus-size-brautkleid_2_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1150/vollkommenbraut-bridalstar-becky-plus-size-brautkleid_2_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1150/img_6599_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1150/img_6599_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1150/img_6595_quadrat-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1150/img_6595_quadrat-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1150/img_6602_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1150/img_6602_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1150/img_6603_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1150/img_6603_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1150/img_6600_quadrat-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1150/img_6600_quadrat-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1150/img_8042_quadrat-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1150/img_8042_quadrat-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1150/img_6608_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1150/img_6608_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1150/img_6605_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1150/img_6605_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1150/img_6609_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1150/img_6609_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1150/img_6604_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1150/img_6604_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1150/img_9213_quadrat.jpg" data-fancybox="gallery"><img src="../site/assets/files/1150/img_9213_quadrat.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1150/img_9214_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1150/img_9214_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1150/ivalo-close-up-back-2_quadrat-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1150/ivalo-close-up-back-2_quadrat-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/Amelie.Brautkleider.2027/36024(4).JPEG" data-fancybox="gallery"><img src="../site/assets/Amelie.Brautkleider.2027/thumbnails/36024(4).JPEG" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1150/ivalo-close-up-front_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1150/ivalo-close-up-front_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1150/imperia-front-2_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1150/imperia-front-2_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1150/imperia-back_quadrat.jpg" data-fancybox="gallery"><img src="../site/assets/files/1150/imperia-back_quadrat.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1150/vollkommenbraut-bridalstar-hielkje-plus-size-brautkleid-curvy_1_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1150/vollkommenbraut-bridalstar-hielkje-plus-size-brautkleid-curvy_1_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1150/vollkommenbraut-bridalstar-isadee-plus-size-brautkleid_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1150/vollkommenbraut-bridalstar-isadee-plus-size-brautkleid_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1150/vollkommenbraut-bridalstar-honeyflower-plus-size-brautkleid_1_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1150/vollkommenbraut-bridalstar-honeyflower-plus-size-brautkleid_1_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1109/lia-plus-size-wedding-dress-4_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1109/lia-plus-size-wedding-dress-4_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1109/lia-plus-size-wedding-dress-2-2_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1109/lia-plus-size-wedding-dress-2-2_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1109/lia-plus-size-wedding-dress-1_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1109/lia-plus-size-wedding-dress-1_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1109/lia-plus-size-wedding-dress-5_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1109/lia-plus-size-wedding-dress-5_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1109/amy-plus-size-wedding-dress-4_bearb-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1109/amy-plus-size-wedding-dress-4_bearb-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1109/amy-plus-size-wedding-dress-1_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1109/amy-plus-size-wedding-dress-1_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1109/amy-plus-size-wedding-dress-5_bearb-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1109/amy-plus-size-wedding-dress-5_bearb-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1109/061a1588-1_2_hf-1.jpg" data-fancybox="gallery"><img src="../site/assets/files/1109/061a1588-1_2_hf-1.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1109/061a1628-1_2_quadrat.jpg" data-fancybox="gallery"><img src="../site/assets/files/1109/061a1628-1_2_quadrat.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1109/remi-plus-size-wedding-dress-3_bearb_quadrat.jpg" data-fancybox="gallery"><img src="../site/assets/files/1109/remi-plus-size-wedding-dress-3_bearb_quadrat.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1109/remi-plus-size-wedding-dress-8_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1109/remi-plus-size-wedding-dress-8_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1109/remi-plus-size-wedding-dress-1_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1109/remi-plus-size-wedding-dress-1_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1109/remi-plus-size-wedding-dress-7_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1109/remi-plus-size-wedding-dress-7_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1109/daniella-plus-size-wedding-dress-2-_1_quadrat.jpg" data-fancybox="gallery"><img src="../site/assets/files/1109/daniella-plus-size-wedding-dress-2-_1_quadrat.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1109/daniella-plus-size-wedding-dress-2-_5_2_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1109/daniella-plus-size-wedding-dress-2-_5_2_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1109/magnolia-plus-size-wedding-dress-3_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1109/magnolia-plus-size-wedding-dress-3_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1109/magnolia-plus-size-wedding-dress-5_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1109/magnolia-plus-size-wedding-dress-5_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1109/magnolia-plus-size-wedding-dress-4_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1109/magnolia-plus-size-wedding-dress-4_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1109/magnolia-plus-size-wedding-dress-1_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1109/magnolia-plus-size-wedding-dress-1_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1109/ines-plus-size-wedding-dress-_1_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1109/ines-plus-size-wedding-dress-_1_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1109/ines-plus-size-wedding-dress-_3_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1109/ines-plus-size-wedding-dress-_3_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1109/barbara-plus-size-wedding-dress-5_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1109/barbara-plus-size-wedding-dress-5_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1109/barbara-plus-size-wedding-dress-1_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1109/barbara-plus-size-wedding-dress-1_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1109/barbara-plus-size-wedding-dress-4_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1109/barbara-plus-size-wedding-dress-4_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1109/millie-plus-size-wedding-dress-1_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1109/millie-plus-size-wedding-dress-1_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1109/millie-plus-size-wedding-dress-5_bearb.jpg" data-fancybox="gallery"><img src="../site/assets/files/1109/millie-plus-size-wedding-dress-5_bearb.jpg" alt="Brautkleid" loading="lazy"></a></div>
-                    <div class="bild rounded"><a href="../site/assets/files/1109/061a1222_hf.jpg" data-fancybox="gallery"><img src="../site/assets/files/1109/061a1222_hf.jpg" alt="Brautkleid" loading="lazy"></a></div>
+            <div id="wrapper_hamburger_navi_top">
+                <div class="hamburger"></div>
+            </div>
+            <div id="wrapper_hamburger_navi_top_overlay">
+                <div id="navi_top_hamburger" class="navi_top_hamburger mobile nav">
+                    <ul id="wrap_the_lis_mobile"><li class="level-1 current"><a href="./"><span>BRAUTKLEIDER</span></a></li><li class="level-1"><a href="../accessoires/"><span>ACCESSOIRES</span></a></li><li class="level-1"><a href="../termine/"><span>TERMINE</span></a></li><li class="level-1"><a href="../curvy-brides/"><span>CURVY BRIDES</span></a></li><li class="level-1"><a href="../uber-uns/"><span>ÜBER MICH</span></a></li><li class="level-1"><a href="../kontakt/"><span>KONTAKT</span></a></li><li class="level-1"><a href="../faq/"><span>FAQ</span></a></li></ul>
                 </div>
             </div>
-        </div>
+    </div>
 
+            <div id="content_wrapper">
+    <div id="content">
+
+        <div class="wrappy">
+            <section class="brautkleider-intro">
+                <div id="category-stage" class="category-stage"></div>
+            </section>
+        </div>
                 <!-- CTA Section -->
         <section class="py-16 px-6 text-center bg-white">
             <div class="max-w-2xl mx-auto">
@@ -476,5 +585,6 @@
     </div>
 </div>
 
+<script src="./scripts/brautkleider.js"></script>
 
 </body></html>
