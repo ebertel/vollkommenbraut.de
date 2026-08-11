@@ -18,17 +18,20 @@ document.addEventListener('DOMContentLoaded', function() {
 	">
 		<div id="sale-popup" style="
 			position: relative;
-			background-color: white;
-			border-radius: 12px;
-			width: 90%;
-			max-width: 600px;
+			background: none;
+			border-radius: 0;
+			width: auto;
+			max-width: min(90vw, calc(90vh * 853 / 1280));
 			max-height: 90vh;
-			overflow-y: auto;
+			overflow: hidden;
 			opacity: 0;
 			transition: opacity 0.7s ease;
-			box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+			box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+			padding: 0;
+			margin: 0;
+			line-height: 0;
 		">
-			<img src="sites/assets/sales/sales_juli_2026.png" alt="Sale" style="width: 100%; height: auto; display: block;">
+			<img src="sites/assets/wedding-inspiration-day.jpg" alt="Wedding Inspiration Day – 13. September, 12–16 Uhr" style="width: 100%; height: auto; display: block; border-radius: 0; margin: 0; padding: 0;">
 		</div>
 		
 		<button id="sale-popup-close" style="
