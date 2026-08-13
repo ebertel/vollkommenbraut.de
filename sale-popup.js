@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			margin: 0;
 			line-height: 0;
 		">
-			<img src="site/assets/wedding-inspiration-day.jpg?v=20260813" alt="Wedding Inspiration Day – 13. September, 12–16 Uhr" style="width: 100%; height: auto; display: block; border-radius: 0; margin: 0; padding: 0;">
+			<img src="sites/assets/wedding-inspiration-day.jpg?v=20260813a" alt="Wedding Inspiration Day – 13. September, 12–16 Uhr" style="width: 100%; height: auto; display: block; border-radius: 0; margin: 0; padding: 0;">
 		</div>
 		
 		<button id="sale-popup-close" style="
